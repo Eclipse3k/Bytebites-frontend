@@ -1,11 +1,11 @@
 import { RootLayout } from './layouts/RootLayout'
 import '@radix-ui/themes/styles.css'
-import { TestPage } from './playground/components/TestPage'
+import Home from './components/Home'
 
 function App() {
   return (
     <RootLayout>
-      <TestPage />
+      <Home />
     </RootLayout>
   )
 }
